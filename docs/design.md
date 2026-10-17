@@ -53,6 +53,10 @@ submodule pointers and an OS user's ability to install a package are distinct
 from permission to copy/relicense its contents. Excluded restricted skills
 are neither bundled nor automatically fetched by this tool.
 
-`claude-mem` is a reference-only submodule; no runtime file from it is in a
-profile. Future service integration needs a separate adapter, provider/privacy
-configuration and behavioral evidence, not simply another SKILL.md entry.
+The default file profiles do not include a memory runtime. The opt-in maximum
+preset uses the separate native adapter in `integrations.py`, with exact bundle
+filters, executable modes, native cache receipts, configuration snapshots and
+a shared runtime outside the pinned sources. See [integrations](integrations.md).
+Native plugins expose the complete upstream skill set without changing the
+small default. Runtime health, model compression and agent hook activation
+remain separate validation layers.

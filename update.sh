@@ -17,6 +17,7 @@ git pull --ff-only
 git submodule sync --recursive
 git submodule update --init --recursive
 if [ "$#" -eq 0 ]; then
-  exec python3 duet.py sync
+  python3 duet.py sync
+  exec python3 integrations.py sync
 fi
 exec ./install.sh "$@"

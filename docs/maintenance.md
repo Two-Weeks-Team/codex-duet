@@ -1,5 +1,9 @@
 # Maintenance
 
+For the optional full native plugins and memory runtime, see
+[native integrations](integrations.md). The commands below manage selective
+file installations; their receipts are separate from native plugin receipts.
+
 ## Inspect
 
 `list` explains profiles and source pins. `verify --profile NAME` checks the

@@ -27,7 +27,7 @@
       "path": "skills/codex-duet",
       "license": "Apache-2.0",
       "files": {
-        "SKILL.md": "7dbd232695c68cd9ce02765520edecc9df41024fe2ea64ba22a3053e74a153e6",
+        "SKILL.md": "806ebab22cf9c346cadfbbf924d10cd77ae2c3c5cf544ad3302e2e372440444a",
         "agents/openai.yaml": "7e8e0b24bf761adf3f5ec716335a96481b29014ec65570185f25f9320b0bc165"
       },
       "requires": [],

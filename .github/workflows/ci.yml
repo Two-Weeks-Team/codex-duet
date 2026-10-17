@@ -14,4 +14,5 @@ jobs:
           python-version: '3.12'
       - run: python3 -m unittest discover -s tests -v
       - run: python3 duet.py verify --profile all-reviewed
-      - run: sh -n install.sh update.sh
+      - run: python3 integrations.py verify
+      - run: sh -n install.sh update.sh adapters/node-run.sh

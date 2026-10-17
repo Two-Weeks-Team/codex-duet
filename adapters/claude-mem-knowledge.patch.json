@@ -1,0 +1,8 @@
+{
+  "start": "var oj=class{",
+  "end": ";var gj=\"13.41.0\"",
+  "before_sha256": "67eb6a3501bd8bba73490ffc423d382c8a83cca2d2d8157dff5c95fbcfa8b206",
+  "preserve_original_as": "DuetOriginalKnowledgeAgent",
+  "replacement_path": "adapters/claude-mem-knowledge.js",
+  "replacement_sha256": "142e3481a0f126db24557a5f283455f0a685fcc4a36aa1068d838e1ed7efe50e"
+}

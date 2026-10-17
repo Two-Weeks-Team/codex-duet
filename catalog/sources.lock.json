@@ -32,7 +32,7 @@
       "url": "https://github.com/thedotmack/claude-mem.git",
       "revision": "b1527d4bdeaecb9bbe1fa885b86359bdf75e4419",
       "license": "Apache-2.0",
-      "role": "reference-only",
+      "role": "optional-native-runtime-and-skills",
       "license_files": {
         "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
         "NOTICE": "35003c303ee484c77872fd45eb5d590ce679d1ae7ac5bb672d33069cca66685b"

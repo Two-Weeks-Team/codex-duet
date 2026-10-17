@@ -12,7 +12,9 @@ skill files without taking over Orca's session or task orchestration.
 
 Run on the same host and OS user as your Orca agents. Requires Python 3.10+,
 Git and a running Orca with `skills installed --json`. Initial support is macOS
-and Linux; Windows is not yet validated. No Python or Node dependencies.
+and Linux; Windows is not yet validated. The default file manager has no
+third-party Python or Node dependencies. The optional native preset has the
+additional requirements listed in [native integrations](docs/integrations.md).
 
 ```sh
 git clone --recurse-submodules https://github.com/Two-Weeks-Team/codex-duet.git ~/.local/share/codex-duet
@@ -37,6 +39,21 @@ python3 duet.py plan --profile design --agent codex
 python3 duet.py status --agent codex
 python3 duet.py doctor --agent codex
 ```
+
+To explicitly expose **all 80 upstream skills** and prepare a shared local
+memory runtime for both agents, use the opt-in native preset:
+
+```sh
+python3 integrations.py plan
+./install.sh --preset maximum --provider claude
+python3 integrations.py memory-start
+```
+
+This uses an existing Claude subscription for memory compression. `--provider
+codex` selects an existing Codex ChatGPT login instead. Existing same-pin
+Superpowers on Claude is reused. See [native integrations](docs/integrations.md)
+for hook activation, all features, configuration, updates and removal.
+The [feature catalog](docs/features.md) lists all 80 skills and optional service requirements.
 
 Codex targets the shared Agent Skills path `~/.agents/skills`; other compatible
 tools may also discover it. Claude targets `~/.claude/skills`. Existing
@@ -115,7 +132,8 @@ separate validation. Installing a file does not prove that an agent used it.
 
 The manager never executes upstream scripts. A selected skill may instruct an
 agent to execute its resources during later use; review the selected files.
-Memory backends are reference-only in this release.
+The default file manager does not start a memory backend. The explicit maximum
+native preset has a separate memory adapter and dependency installation.
 
 ## License
 
