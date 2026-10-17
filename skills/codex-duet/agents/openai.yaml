@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Duet"
+  short_description: "Manage pinned Codex and Claude skills inside Orca"
+  default_prompt: "Use $codex-duet to inspect my Orca skill selections and plan a safe update."

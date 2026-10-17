@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "profiles": {
+    "orca": [
+      "duet-manager"
+    ],
+    "design": [
+      "matt-codebase-design",
+      "matt-domain-modeling",
+      "matt-prototype"
+    ],
+    "verification": [
+      "superpowers-verification"
+    ],
+    "all-reviewed": [
+      "duet-manager",
+      "matt-codebase-design",
+      "matt-domain-modeling",
+      "matt-prototype",
+      "superpowers-verification"
+    ]
+  },
+  "skills": {
+    "duet-manager": {
+      "name": "codex-duet",
+      "source": "self",
+      "path": "skills/codex-duet",
+      "license": "Apache-2.0",
+      "files": {
+        "SKILL.md": "7dbd232695c68cd9ce02765520edecc9df41024fe2ea64ba22a3053e74a153e6",
+        "agents/openai.yaml": "7e8e0b24bf761adf3f5ec716335a96481b29014ec65570185f25f9320b0bc165"
+      },
+      "requires": [],
+      "overlays": {}
+    },
+    "matt-codebase-design": {
+      "name": "codebase-design",
+      "source": "mattpocock",
+      "path": "skills/engineering/codebase-design",
+      "license": "MIT",
+      "files": {
+        "DEEPENING.md": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1",
+        "DESIGN-IT-TWICE.md": "52b52e75655a27aea59c6966b410bac82448968ad46ef1ebb9f07c274e3ae010",
+        "SKILL.md": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+        "agents/openai.yaml": "edebc9e4fcfe102114012575eaa9600b9b5fd08c311664f389c36e7bc717740f"
+      },
+      "requires": [],
+      "overlays": {}
+    },
+    "matt-domain-modeling": {
+      "name": "domain-modeling",
+      "source": "mattpocock",
+      "path": "skills/engineering/domain-modeling",
+      "license": "MIT",
+      "files": {
+        "ADR-FORMAT.md": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+        "GLOSSARY-FORMAT.md": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801",
+        "SKILL.md": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+        "agents/openai.yaml": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b"
+      },
+      "requires": [],
+      "overlays": {}
+    },
+    "matt-prototype": {
+      "name": "prototype",
+      "source": "mattpocock",
+      "path": "skills/engineering/prototype",
+      "license": "MIT",
+      "files": {
+        "LOGIC.md": "f61c7d249e786a79ef289018901c348271e1798dd0b0bc5607b5c6f4d4a01ab9",
+        "SKILL.md": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3",
+        "UI.md": "723211e878acbc7b6ff09755263f3295cde724ba902ff0064da41eed51d45ad3",
+        "agents/openai.yaml": "5af65e43ab41a350436697b81e27b7f848d36782043b73c322bb2c9fa9cc55dc"
+      },
+      "requires": [],
+      "overlays": {}
+    },
+    "superpowers-verification": {
+      "name": "verification-before-completion",
+      "source": "superpowers",
+      "path": "skills/verification-before-completion",
+      "license": "MIT",
+      "files": {
+        "SKILL.md": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3"
+      },
+      "requires": [],
+      "overlays": {}
+    }
+  }
+}

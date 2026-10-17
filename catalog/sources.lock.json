@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "sources": {
+    "mattpocock": {
+      "path": "upstream/mattpocock-skills",
+      "url": "https://github.com/mattpocock/skills.git",
+      "revision": "49dd158d1076134a641b33efb035946536778336",
+      "license": "MIT",
+      "role": "skills",
+      "license_files": {
+        "LICENSE": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+      },
+      "license_surface": {
+        "LICENSE": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+      }
+    },
+    "superpowers": {
+      "path": "upstream/superpowers",
+      "url": "https://github.com/obra/superpowers.git",
+      "revision": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "license": "MIT",
+      "role": "skills",
+      "license_files": {
+        "LICENSE": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+      },
+      "license_surface": {
+        "LICENSE": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+      }
+    },
+    "claude-mem": {
+      "path": "upstream/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem.git",
+      "revision": "b1527d4bdeaecb9bbe1fa885b86359bdf75e4419",
+      "license": "Apache-2.0",
+      "role": "reference-only",
+      "license_files": {
+        "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "NOTICE": "35003c303ee484c77872fd45eb5d590ce679d1ae7ac5bb672d33069cca66685b"
+      },
+      "license_surface": {
+        "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "NOTICE": "35003c303ee484c77872fd45eb5d590ce679d1ae7ac5bb672d33069cca66685b",
+        "docs/license.md": "bdcd2f4a5ea68a4ec8689af743ea412df004308a6d05a316ae780a2f8968d160",
+        "dsh/LICENSE": "7f974a7ad78667d97bb540e6dea4e412d1dc1b1afb21562ebe5d12920a2c459e",
+        "dsh/NOTICE": "b0dbd490467c20d7ab2f63fe442f1c7d3b81a4b66059670018ebc96680cf10f1",
+        "ragtime/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    }
+  }
+}

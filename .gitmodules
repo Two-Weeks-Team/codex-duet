@@ -1,0 +1,12 @@
+[submodule "upstream/mattpocock-skills"]
+	path = upstream/mattpocock-skills
+	url = https://github.com/mattpocock/skills.git
+	shallow = true
+[submodule "upstream/superpowers"]
+	path = upstream/superpowers
+	url = https://github.com/obra/superpowers.git
+	shallow = true
+[submodule "upstream/claude-mem"]
+	path = upstream/claude-mem
+	url = https://github.com/thedotmack/claude-mem.git
+	shallow = true
